@@ -1,0 +1,8 @@
+com.cdcars.api - Camada com o bootstrap da API Rest SpringBoot
+com.cdcars.api.config - Camada com os configs gerais, atualmente só possui Swagler
+com.cdcars.api.models - Camada com os Models e Entidades que o SpringBoot usará para criar as tables automaticamente
+com.cdcars.api.repository - Camada com as Implementações das Interfaces e das Querys customizadas do SpringBoot
+com.cdcars.api.resources - Camada onde se localiza os métodos GET/POST/PUT/DELETE da API SpringBoot
+
+
+***Obs: Demais camadais são pertinentes a regra de negocio do CDCARS, e tudo se inicia na class "SampleRecomender".

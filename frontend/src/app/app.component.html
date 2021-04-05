@@ -1,0 +1,24 @@
+﻿<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="user">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Início</a>
+        <a class="nav-item nav-link" routerLink="/book" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Livros</a>
+        <a class="nav-item nav-link" routerLink="/movie" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Filmes</a>
+        <a class="nav-item nav-link" routerLink="/music" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Músicas</a>
+        <a class="nav-item nav-link" routerLink="/recommend" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Recomendados</a>
+        <a class="nav-item nav-link" routerLink="/users" routerLinkActive="active">Users</a>
+        <a class="nav-item nav-link" (click)="logout()">Logout</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="app-container" [ngClass]="{ 'bg-light': user }">
+    <alert></alert>
+    <router-outlet></router-outlet>
+</div>
+
+<!-- credits -->
+<div class="text-center mt-4">
+    <p></p>
+    <p></p>
+</div>

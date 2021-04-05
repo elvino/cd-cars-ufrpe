@@ -1,0 +1,38 @@
+.card-body{
+    background-color: #151618 !important;
+}
+
+.card-body img {
+    width: 300px;
+    height: 190px;
+    display: block;
+    margin: auto;
+  }
+
+  .form-group label{
+    color:#fff;
+  }
+
+
+#btn-register{
+    background-color: #fff !important;
+    color: #151618 !important;
+    width: 49%;
+    border: none;
+    margin-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#btn-register:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+#a-cancel{
+    background-color: #fff !important;
+    color: #151618 !important;
+    
+    text-decoration: none;
+    width: 49%;
+}
